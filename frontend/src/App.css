@@ -1,0 +1,106 @@
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-ul li a {
+  color: #ffff;
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: black;
+}
+
+.nav-right {
+  justify-content: flex-end;
+}
+
+.nav-right li {
+  padding-right: 20px;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.footer {
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.inputBox {
+  margin-left: 30%;
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.container {
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+.container h1 {
+  padding-left: 8%;
+}
+
+.container button {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  margin-left: 14%;
+}
+
+.button {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.container button:hover,
+.button:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  width: 180px;
+}
+.product-list ul {
+  margin: 0px;
+}
+
+.search-input {
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid black;
+  padding-left: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
